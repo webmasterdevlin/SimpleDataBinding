@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SimpleDataBinding"
+             x:Class="SimpleDataBinding.MainPage">
+    <StackLayout VerticalOptions="Center">
+        <Label HorizontalOptions="Center"
+               Text="{Binding Name}"
+               FontSize="28" />
+        <Label HorizontalOptions="Center"
+               Text="{Binding Phone}"
+               FontSize="28" />
+        <Label HorizontalOptions="Center"
+               Text="{Binding Email}"
+               FontSize="28" />
+    </StackLayout>
+</ContentPage>
